@@ -80,8 +80,7 @@ body {
     display: flex;
     flex-direction: row;
     margin: auto;
-    /* background-color: aqua; */
-    
+    padding-top: 20px;  
   }
   
 
@@ -108,7 +107,7 @@ body {
 
   .text-body1{
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   .text-btn{
