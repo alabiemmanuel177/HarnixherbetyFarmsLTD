@@ -57,3 +57,32 @@ body{
     align-content: center;
     justify-items: center;
   }
+
+  .card-holder{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+    margin-top: 40px;
+    
+  }
+
+  .card{
+    width: 50%;
+    height: 500px;
+    
+    
+    
+  }
+
+  .card1{
+  margin-right: 100px;
+  /* background-color: rgba(0, 0, 0, 0.05) !important; */
+  
+  }
+
+  .wording{
+    margin-top: 20px;
+    padding: 12px;
+  }
