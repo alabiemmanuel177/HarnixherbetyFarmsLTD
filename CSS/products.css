@@ -1,0 +1,32 @@
+.product-holder{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+   
+}
+
+
+.product-info{
+    width: 100%;
+    background-color: #ebeced;
+    
+}
+
+.product-card{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.product-image{
+    border: 20px solid #ebeced;  
+    border-radius: 10px 0px 0px 10px;  
+}
+
+.product-info{
+    padding: 20px;
+}
+
+.product-image2{
+    border: 20px solid #ebeced;
+    border-radius: 0px 10px 10px 0px;
+}
