@@ -100,3 +100,22 @@ body {
   .whole-card{
     background-color:  rgb(74, 60, 156) !important ;
   }
+
+  .text-head{
+    color: orange !important;
+    margin-bottom: 20px;
+  }
+
+  .text-body1{
+    color: white;
+    margin-bottom: 50px;
+  }
+
+  .text-btn{
+    background-color: orange !important;
+  }
+
+  /* .vid{
+    width: 100%;
+    height: auto;
+  } */
