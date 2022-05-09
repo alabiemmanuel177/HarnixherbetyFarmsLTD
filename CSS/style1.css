@@ -74,4 +74,29 @@ body {
   .container{
       padding: 20px;
   }
+
+  .main-card{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    /* background-color: aqua; */
+    
+  }
   
+
+  .card-txt{
+    width: 50%;
+    /* background-color: red; */
+    padding: 10px;
+  }
+
+  .card-vid{
+    width: 50%;
+    /* background-color: yellow; */
+    padding: 10px;
+  }
+
+  .whole-card{
+    background-color:  rgb(74, 60, 156) !important ;
+  }
