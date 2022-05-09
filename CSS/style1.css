@@ -1,88 +1,96 @@
-body{
+body {
     margin: 0;
-  }
-  .topnav {
+}
+
+.topnav {
     margin: 0;
     background-color: white;
     overflow: hidden;
     display: flex;
-    padding: 20px 14px;
-  }
-  .logo{
+}
+
+.logo {}
+
+.logo a {
     font-size: 20px;
-  }
-  .navbar{
-      font-size: 20px;
-      margin-left: auto;
-  }
-  .navbar a{
-      padding: 10px;
-      font-family: Arial;
-  }
-  .maincard{
+    font-family: Arial;
+    padding: 10px;
+}
+
+.navbar {
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.navbar a {
+    padding: 10px;
+    font-family: Arial;
+}
+
+.maincard {
     width: 100%;
     height: 700px;
     background-color: rgb(74, 60, 156);
     display: flex;
-  }
-  .maincard-txt{
+}
+
+.maincard-txt {
     margin-top: 150px;
     width: 100%;
     margin-left: 40px;
     font-family: Arial;
-  }
-  .maincard-txt h1{
+}
+
+.maincard-txt h1 {
     padding: 10px;
     margin-left: 30px;
     font-size: 45px;
     color: orange;
-  }
-  .maincard-txt h3{
+}
+
+.maincard-txt h3 {
     /* padding: 10px; */
     margin-top: 50px;
     margin-left: 40px;
     font-size: 20px;
     color: white;
-  }
-  .maincard-txt button{
+}
+
+.maincard-txt button {
     background-color: orange;
     margin-left: 40px;
     margin-top: 30px;
-  }
-  .maincard-video{
+}
+
+.maincard-video {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     justify-items: center;
-  }
+}
 
-  .card-holder{
+.card-holder {
     width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
     margin-bottom: 120px;
     margin-top: 40px;
-    
-  }
+}
 
-  .card{
+.card {
     width: 50%;
     height: 500px;
-    
-    
-    
-  }
+}
 
-  .card1{
-  margin-right: 100px;
-  /* background-color: rgba(0, 0, 0, 0.05) !important; */
-  
-  }
+.card1 {
+    margin-right: 100px;
+    /* background-color: rgba(0, 0, 0, 0.05) !important; */
+}
 
-  .wording{
+.wording {
     margin-top: 20px;
     padding: 12px;
-  }
+}
