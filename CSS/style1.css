@@ -76,30 +76,24 @@ body {
   }
 
   .main-card{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    margin: auto;
-    padding-top: 20px;  
+    align-items: center;    
+    background-color:  rgb(74, 60, 156) !important ;
+    height: 600px;
   }
   
 
   .card-txt{
     width: 50%;
-    /* background-color: red; */
-    padding: 10px;
+    margin-left: 5%;
   }
 
   .card-vid{
-    width: 50%;
-    /* background-color: yellow; */
-    padding: 10px;
-  }
-
-  .whole-card{
-    background-color:  rgb(74, 60, 156) !important ;
-  }
-
+    width: 50%;    
+    margin-right: 5%;
+  }  
   .text-head{
     color: orange !important;
     margin-bottom: 20px;

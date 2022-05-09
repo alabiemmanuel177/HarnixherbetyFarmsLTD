@@ -1,0 +1,9 @@
+.space{
+    height: 400px;
+}
+.text{
+    align-items: center;
+}
+.text h1{
+    font-size: 60px;
+}
