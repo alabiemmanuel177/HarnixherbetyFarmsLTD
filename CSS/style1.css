@@ -82,15 +82,11 @@ body {
 
 .card {
     width: 50%;
-    height: 530px;
-    
-    
-    
+    height: 530px;    
   }
 
 .card1 {
     margin-right: 100px;
-    /* background-color: rgba(0, 0, 0, 0.05) !important; */
 }
 
 .wording {
@@ -113,3 +109,7 @@ body {
   .logo{
     padding: 20px;
   }
+  .container{
+      padding: 20px;
+  }
+  
