@@ -2,8 +2,53 @@
     height: 400px;
 }
 .text{
-    align-items: center;
-}
+    position: absolute;
+    z-index: 2;
+    top: 600px;
+    text-align: center;
+    width: 100%;    
+    color: white;
+    }
 .text h1{
     font-size: 60px;
+   }
+.text h3{
+    font-size: 30px;
+}
+.container1{
+    position: relative;
+    top: -400px;
+    background-color: white;
+    padding: 20px !important;
+    z-index: 3;   
+    border-radius: 10px;
+    border: 1px solid gray; 
+    width: 60%;
+    margin-left: 20%;
+}
+.form-group label{
+    font-size: 20px;
+}
+.form-group input{
+    height: 60px;
+}
+.form-group textarea{
+    height: 300px !important;
+}
+.col-md-12 input{
+    font-size: 20px !important;
+    
+}
+
+.row {
+    margin: 0% !important;
+}
+
+.background{
+   
+    opacity: 0.5;
+}
+.contact{
+    background-color: black;
+    height: 1270px;
 }

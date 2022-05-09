@@ -19,97 +19,138 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <!-- <div class="topnav"> -->
-    <div class="logo">
-      <a>HarnixHerbetyFarms</a>
+<body>
+  <div class="logo">
+    <a>HarnixHerbetyFarms</a>
 
-      <div class="others">
-        <a>Home</a>
-        <a>Product</a>
-        <a>Gallery</a>
-        <a>Blog</a>
-        <a>Contact Us</a>
-      </div>
+    <div class="others">
+      <a>Home</a>
+      <a>Product</a>
+      <a>Gallery</a>
+      <a>Blog</a>
+      <a>Contact Us</a>
     </div>
-    <div class="contact">
-      <div class="background">
-        <img
-          src="/images/thomas-iversen-4W8FgDVyUME-unsplash.jpg"
-          alt=""
-          width="100%"
+  </div>
+  <div class="contact">
+    <div class="background">
+      <img
+        src="/images/henrique-s-ruzzon-u1vOLCULaik-unsplash.jpg"
+        alt=""
+        width="100%"
         />
-        <div class="text">
-          <h1>Contact Us</h1>
-          <h3>
-            If you need our help, have questions about how to use the platform
-            or are. experiencing technical difficulties, please do not hesitate
-            to contact us.
-          </h3>
-        </div>
       </div>
-      <div class="space"></div>
-    </div>
-
-    <div class="footer">
-      <footer class="text-center text-lg-start bg-light text-muted">
-        <section class="foot">
-          <div class="container text-center text-md-start mt-5">
-            <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">
-                  <i class="fas fa-gem me-3"></i>HarnixHerbetyFarms
-                </h6>
-                <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
-                </p>
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
-                <p>
-                  <a href="#!" class="text-reset">Product</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Gallery</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Blog</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Contact Us</a>
-                </p>
-              </div>
-
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                <p>
-                  <i class="fas fa-home me-3"></i> Ibada, Oyo State, Nigeria
-                </p>
-                <p>
-                  <i class="fas fa-envelope me-3"></i>
-                  info@HarnixHerbety@gmail.com
-                </p>
-                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-              </div>
+      <div class="text">
+        <h1>Contact Us</h1>
+        <h3>If you need our help, have questions about how to use the platform
+          </h3><h3>or are experiencing technical difficulties,
+          please do not hesitate to contact us.</h3>
+  </div>
+  
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700'>
+<div class="container1">
+  <div class="row">       
+      <form id="contact-form" method="post" action="" role="form">
+      <div class="controls">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_name">Firstname *</label>
+              <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
             </div>
           </div>
-        </section>
-
-        <div
-          class="text-center p-4"
-          style="background-color: rgba(0, 0, 0, 0.05)"
-        >
-          © 2022 Copyright:
-          <a class="text-reset fw-bold" href="">HarnixHerbetyFarms</a>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_lastname">Lastname *</label>
+              <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+            </div>
+          </div>
         </div>
-      </footer>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_email">Email *</label>
+              <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_phone">Phone</label>
+              <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="form_message">Message *</label>
+              <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required data-error="Please,leave us a message."></textarea>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <input type="submit" class="btn btn-success btn-send" value="Contact Us">
+          </div>
+        </div>         
+      </div>
+      </form>
+  </div>
+</div>      
+<div class="footer">
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <section class="foot">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>HarnixHerbetyFarms
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4"> 
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+            <p>
+              <a href="/HTML/product.html" class="text-reset">Product</a>
+            </p>
+            <p>
+              <a href="/HTML/gallery.html" class="text-reset">Gallery</a>
+            </p>
+            <p>
+              <a href="/HTML/" class="text-reset">Blog</a>
+            </p>
+            <p>
+              <a href="/HTML/Contact.html" class="text-reset">Contact Us</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p>
+              <i class="fas fa-home me-3"></i> Ibada, Oyo State, Nigeria
+            </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@HarnixHerbety@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="text-center p-4"
+      style="background-color: rgba(0, 0, 0, 0.05)"
+    >
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="">HarnixHerbetyFarms</a>
     </div>
-  </body>
+  </footer>
+</div>
+</body>
 </html>
