@@ -6,6 +6,7 @@ body {
     background-color: white;
     overflow: hidden;
     display: flex;
+   
 }
 .logo a {
     font-size: 20px;
@@ -14,9 +15,18 @@ body {
     text-decoration: none;
     color: #000;
 }
+
+.logo{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
 .navbar {
     font-size: 20px;
     margin-left: auto;
+    
 }
 .navbar a {
     padding: 10px;
@@ -29,9 +39,11 @@ body {
     flex-direction: row;
     margin-bottom: 120px;
     margin-top: 40px;
+    
 }
 .card {
     width: 50%;    
+    
   }
 .card1 {
     margin-right: 100px;
@@ -86,3 +98,5 @@ body {
 .text-btn{
   background-color: orange !important;
 }
+
+
