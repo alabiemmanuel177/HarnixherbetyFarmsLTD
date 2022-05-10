@@ -4,7 +4,7 @@
 .text{
     position: absolute;
     z-index: 2;
-    top: 600px;
+    top: 500px;
     text-align: center;
     width: 100%;    
     color: white;
@@ -17,9 +17,9 @@
 }
 .container1{
     position: relative;
-    top: -400px;
+    top: -500px;
     background-color: white;
-    padding: 20px !important;
+    padding: 30px !important;
     z-index: 3;   
     border-radius: 10px;
     border: 1px solid gray; 
