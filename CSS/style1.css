@@ -40,20 +40,20 @@ body {
     margin-top: 20px;
     padding: 12px;
   }
-.btn-primary1{
-  background-color: rgb(74, 60, 156) !important;
-  border: 1px solid rgb(74, 60, 156) !important ;
-}
-.others{
-  float: right !important;
-  margin-right: 5px;
-  color: black;
-  text-decoration: none !important;
-}
-.logo{
-  padding: 20px;
-}
-.container{
+
+  .btn-primary1{
+    background-color: rgb(74, 60, 156) !important;
+    border: 1px solid rgb(74, 60, 156) !important ;
+  }
+
+  .others{
+    float: right !important;
+    margin-right: 5px;
+    color: black; 
+    text-decoration: none;
+  }
+
+  .logo{
     padding: 20px;
 }
 .main-card{
