@@ -1,10 +1,10 @@
 .space{
-    height: 400px;
+    height: 200px;
 }
 .text{
     position: absolute;
     z-index: 2;
-    top: 500px;
+    top: 300px;
     text-align: center;
     width: 100%;    
     color: white;
@@ -16,8 +16,8 @@
     font-size: 30px;
 }
 .container1{
-    position: relative;
-    top: -500px;
+    position: absolute;
+    top: 600px;
     background-color: white;
     padding: 30px !important;
     z-index: 3;   
@@ -25,30 +25,347 @@
     border: 1px solid gray; 
     width: 60%;
     margin-left: 20%;
+    opacity: 1;
 }
 .form-group label{
     font-size: 20px;
 }
 .form-group input{
     height: 60px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
 .form-group textarea{
     height: 300px !important;
 }
 .col-md-12 input{
-    font-size: 20px !important;
-    
+    font-size: 20px !important;  
+    background-color: orange;  
 }
-
 .row {
     margin: 0% !important;
 }
-
-.background{
-   
+.background{   
     opacity: 0.5;
 }
 .contact{
     background-color: black;
-    height: 1270px;
+    height: 984px;
+}
+.faq{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;    
+    justify-content:space-between
+}
+.sales{
+    /* border: 2px solid rgb(202, 200, 200); */
+    border-radius: 10px;
+    text-align: center;
+    width: 530px;
+    padding: 50px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);;
+}
+.sales h2{
+    font: 24px Inter, sans-serif;
+    margin: 24px 0px 12px;
+    padding: 0px 80px;
+}
+.sales h3{
+    font-size: 18px;
+    padding: 0px 40px;
+    margin: 0px 0px 24px;
+}
+.sales a{
+    font: 18px sans-serif;
+    padding: 0px 80px;
+    color: #26b7d4 !important;
+}
+.sales p{
+    font: 18px inter, sans-serif;
+    padding: 0px 80px;
+}
+.faqpage{
+    /* border: 2px solid rgb(202, 200, 200); */
+    border-radius: 10px;
+    text-align: center;
+    width: 530px;
+    padding: 50px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);;
+}
+.faqpage h2{
+    font: 24px Inter, sans-serif;
+    margin: 24px 0px 12px;
+    padding: 0px 80px;
+}
+.faqpage h3{
+    font-size: 18px;
+    padding: 0px 40px;
+    margin: 0px 0px 24px;
+}
+.faqpage button{
+    font: 16px Inter, sans-serif;
+    background-color: orange;
+    padding: 12px 40px;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+}
+.faqtext{
+    text-align: center;
+}
+.faqtext h1{
+    font: 56px sans-serif;
+}
+.faqtext h2{
+    font: 24px sans-serif;
+    padding: 0px 128px;
+    color: #999999;
 }

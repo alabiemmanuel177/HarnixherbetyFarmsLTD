@@ -1,12 +1,19 @@
 body {
     margin: 0;
 }
-.topnav {
+.topnav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+}
+/* .topnav {
     margin: 0;
     background-color: white;
     overflow: hidden;
     display: flex;
-}
+} */
 .logo a {
     font-size: 20px;
     font-family: Arial;
