@@ -1,0 +1,83 @@
+.banner{
+    opacity: 0.5;
+    
+   
+}
+
+.banner-holder{
+    height: 400px;
+    background-color: black;
+    width: 1498px;
+    
+    
+}
+
+.text-holder{
+    position: absolute;
+    top: 190px;
+    right: 640px;
+    text-align: center;
+    /* z-index: 2; */
+    color: white;
+   
+  
+}
+
+.blog-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-order1{
+    width: 100%;
+    background-color: rgb(74, 60, 156) !important;
+    border: 1px solid rgb(74, 60, 156) !important;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.page-head{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-image{
+    border-radius: 20px;
+    /* border: none !important; */
+}
+
+.card2{
+    width: 28%;
+    border: 1px solid rgb(217, 216, 216);
+    border-radius: 10px;
+}
+
+
+.image-border{
+    border-radius: 10px 10px  0px 0px;
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
+
+.info-holder{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: rgb(168, 168, 168);
+}
+
+.other{
+    float: right !important;
+}
+
+.icon-position{
+    position: relative;
+    top: 2px;
+    
+}
+
