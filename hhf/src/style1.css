@@ -88,10 +88,12 @@ background-color: orange !important;
 .foot{
   background-color:  rgb(74, 60, 156);
   color: white;
-  margin-top: 100px;
+  font-size: larger;
+  /* margin-top: 100px; */
 }
 .row {
-  padding: 50px;
+  /* font-size: larger; */
+  padding: 50px ;
 }
 .info{
   height: 1000px;
@@ -99,4 +101,5 @@ background-color: orange !important;
 .info1{
   height: 1000px;
 }
+
 

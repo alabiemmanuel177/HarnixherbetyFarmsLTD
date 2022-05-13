@@ -1,13 +1,10 @@
 import React from 'react'
 import {createRoot} from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './views/navbar'
 import Footer from './views/footer'
 import Home from './views/home'
 import Contact from './views/contact'
-import "./style1.css"
-import "./style2.css"
 import Product from './views/product'
 import Gallery from './views/gallery'
 
