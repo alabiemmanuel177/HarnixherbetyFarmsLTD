@@ -1,0 +1,113 @@
+.page-head{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    /* background-color: rgb(238, 238, 238); */
+    padding: 10px;
+    padding-bottom: 70px;
+}
+
+.aboutQ{
+    margin-left: 10%;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.aboutA{
+    margin-right: 10%;
+    width: 60%;
+}
+
+.founder-holder{
+    background-color: rgb(243, 243, 243);
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.founder-pic{
+    margin-left: 10%;
+    position: relative;
+    bottom: 100px;
+    /* border: 2px solid black; */
+    width: 29%;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
+    box-shadow: rgba(35, 41, 47, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin-right: 40px;
+   
+    
+}
+
+.About-founder{
+    width: 70%;
+    margin-right: 10%;
+    margin-top: 100px;
+    text-align: left;
+    font-family: sans-serif;
+    line-height: 2;
+}
+
+.name-bold{
+    font-weight: bolder;
+}
+
+.our-background{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.our-backgroung__info{
+    width: 30%;
+    margin-left: 5%;
+    line-height: 2;
+    padding-top: 20px;
+
+}
+
+.our-background__image{
+    width: 60%;
+    margin-right: 10%;
+    display: flex;
+    
+}
+
+.img-postion{
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+/* .image2-opacity{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+
+} */
+
+.image-opacity{
+     width:700px;
+     height: 500px;
+     background-color: black;
+     border-radius: 10px;
+}
+
+.ag2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ag{
+    border-radius: 10px;
+}
+
+.contact-link{
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 5px;
+    color: white;
+
+
+}

@@ -7,6 +7,7 @@ import Home from './views/home'
 import Contact from './views/contact'
 import Product from './views/product'
 import Gallery from './views/gallery'
+import Aboutus from './views/aboutus'
 // import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -19,6 +20,7 @@ const App = () => {
         <Navbar />
         <Routes>       
         <Route index element={<Home />} path="/" />
+        <Route index element={<Aboutus />} path="/aboutus" />
         <Route element={<Contact/>} path="/contact" />
         <Route element={<Product/>} path="/product" />
         <Route element={<Gallery/>} path="/gallery" />
