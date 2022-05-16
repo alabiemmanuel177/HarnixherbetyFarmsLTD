@@ -15,7 +15,8 @@ z-index: 4;
   font-family: Arial;
   padding: 10px;
   text-decoration: none;
-  color: #000 !important;
+  color: #aa551e !important;
+  font-weight: bold;
 }
 .logo{
 position: fixed;
@@ -23,6 +24,9 @@ top: 0;
 width: 100%;
 background-color: white;
 z-index: 1;
+}
+.logo img{
+  margin-left: 50px;
 }
 .others{
   float: right !important;
@@ -89,17 +93,12 @@ background-color: orange !important;
   background-color:  rgb(74, 60, 156);
   color: white;
   font-size: larger;
-  /* margin-top: 100px; */
+  margin-top: 100px;
 }
 .row {
-  /* font-size: larger; */
   padding: 50px ;
 }
-.info{
-  height: 1000px;
-}
-.info1{
-  height: 1000px;
-}
+
+
 
 

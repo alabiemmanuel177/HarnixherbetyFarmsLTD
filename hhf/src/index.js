@@ -7,6 +7,7 @@ import Home from './views/home'
 import Contact from './views/contact'
 import Product from './views/product'
 import Gallery from './views/gallery'
+// import 'bootstrap/dist/css/bootstrap.css';
 
 
 

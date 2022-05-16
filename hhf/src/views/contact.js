@@ -26,13 +26,13 @@ const Contact = () => {
                         <div className="col-md-6">
                             <div className="form-group">
                                 <label for="form_name">Firstname *</label>
-                                <input id="form_name" type="text" name="name" className="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required."/>
+                                <input id="form_name" type="text" name="name" className="form-control" placeholder="Please enter your firstname *" />
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="form-group">
                                 <label for="form_lastname">Lastname *</label>
-                                <input id="form_lastname" type="text" name="surname" className="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required."/>
+                                <input id="form_lastname" type="text" name="surname" className="form-control" placeholder="Please enter your lastname *" />
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const Contact = () => {
                         <div className="col-md-6">
                             <div className="form-group">
                                 <label for="form_email">Email *</label>
-                                <input id="form_email" type="email" name="email" className="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."/>
+                                <input id="form_email" type="email" name="email" className="form-control" placeholder="Please enter your email *" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -54,7 +54,7 @@ const Contact = () => {
                         <div className="col-md-12">
                             <div className="form-group">
                                 <label for="form_message">Message *</label>
-                                <textarea id="form_message" name="message" className="form-control" placeholder="Message for me *" rows="4" required data-error="Please,leave us a message."></textarea>
+                                <textarea id="form_message" name="message" className="form-control" placeholder="Message for me *" rows="4"></textarea>
                             </div>
                         </div>
                     <div className="col-md-12">
