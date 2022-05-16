@@ -25,7 +25,7 @@ const Home = () => {
           </video>
         </div>
       </div>
-      <div className="Welcome">
+      <div className="Welcome p-5">
         <div className="welcome_image">
         <img src="/icons/HHF Logo.png" alt="" width="150px" height="" />
         </div>
