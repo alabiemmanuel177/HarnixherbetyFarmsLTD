@@ -9,7 +9,7 @@ const Navbar = () => {
     <div>
       <div className="topnav">
         <div className="logo">
-        <a><Link to="/"><img src="/icons/HHF Logo.png" alt="" width="90px" height="" /></Link></a>
+        <a><Link to="/"><img src="/icons/HHF Logo.png" alt="" width="70px" height="" /></Link></a>
           <div className="others">
             <a><Link to="/">Home</Link></a>
             <a><Link to="/">About Us</Link></a>

@@ -1,8 +1,7 @@
 .Welcome{
     z-index: 2;
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
+    height: 600px;
+    }
 .Welcome p{
     font-size: 25px;
     text-align: center;
@@ -13,6 +12,9 @@
     flex-direction: row;
     justify-content: center;
     padding: 40px;
+}
+.space{
+    height: 700px;
 }
 .text{
     position: absolute;
