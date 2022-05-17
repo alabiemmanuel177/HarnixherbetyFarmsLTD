@@ -9,7 +9,7 @@ const Home = () => {
         <div className="card-txt">
           <h1 className="text-head">Get Your Quality Farm Product Here</h1>
           <h3 className="text-body1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto <br/>
             dolore eius ex, dignissimos cupiditate in eos quod magni quas natus
             praesentium hic, obcaecati veritatis quos fugit autem doloremque,
             aut aliquid.
