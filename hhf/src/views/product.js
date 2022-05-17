@@ -52,7 +52,7 @@ const Product = () => {
         </div>
         <div className="blog-post">
           <div className="blog-post__img">
-            <img src="/images/henrique-s-ruzzon-u1vOLCULaik-unsplash.jpg" alt=""/>
+            <img src="/images/chicken.jpg" alt=""/>
           </div>
           <div className="blog-post__info">
             <h1 className="blog-post__title">Chicken</h1>

@@ -17,7 +17,7 @@ const Aboutus = () => {
       </div>
       <div className="founder-holder">
         <div className="founder-pic">
-            <img src="/images/owner.jpg" alt=" " width="400px" />
+            <img src="/images/owner.jpg" alt=" " width="100%" />
         </div>
         <div className="About-founder">
           <h3>Our Founder</h3>

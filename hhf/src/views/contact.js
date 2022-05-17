@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="contact">
             <div className="background">
                 <img
-                    src="/images/henrique-s-ruzzon-u1vOLCULaik-unsplash.jpg"
+                    src="/images/chicken.jpg"
                     alt=""
                     width="100%"
                     />
@@ -75,7 +75,7 @@ const Contact = () => {
                 <img src="/icons/question.png" alt="" height="80px" width="80px"/>
                 <h2>Sales</h2>
                 <h3>We'd love to discuss how we can invest money in our farm</h3>
-                <a href='#'>info@HarnixHerbety.com</a><br/>
+                <a href='mailto:info@HarnixHerbety.com'>info@HarnixHerbety.com</a><br/>
                 <p>09012345678</p>
             </div>
             <div className="faqpage">

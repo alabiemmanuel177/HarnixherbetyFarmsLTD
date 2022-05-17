@@ -50,8 +50,10 @@
 }
 .form-group textarea{
     height: 300px !important;
+    margin-bottom: 30px;
 }
 .col-md-12 input{
+    margin-top: 10px !important;
     font-size: 20px !important;  
     background-color: orange;  
 }

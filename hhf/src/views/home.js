@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../home.css";
 
 const Home = () => {
@@ -13,12 +14,10 @@ const Home = () => {
             praesentium hic, obcaecati veritatis quos fugit autem doloremque,
             aut aliquid.
           </h3>
-          <a href="/HTML/product.html">
-            <button type="button" className="btn btn-primary btn-lg text-btn">
-              Check Products
-            </button>
-          </a>
-        </div>
+            <Link to='/Product'><button type="button" className="btn btn-primary btn-lg text-btn">Check Products
+            </button></Link>
+              
+                  </div>
         <div className="card-vid">
           <video width="600px" height="400" controls>
             <source src="" type="video/mp4" />

@@ -1,8 +1,11 @@
 import React from 'react'
+// import Slider from 'react-touch-drag-slider'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div>
+
+    </div>
   )
 }
 
