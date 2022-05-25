@@ -1,14 +1,14 @@
 .cards_on_image{
     display: flex;
     flex-direction: row;    
-    position: relative;
+    position: absolute;
     z-index: 4;
-    top: -60px;
     justify-content: space-evenly !important;
+    top: 100px;
 }
 .card_on_image{
-    width: 350px;
-    height: 190px;
+    width: 450px;
+    height: 200px;
     padding: 30px;
     border: 2.5px solid rgb(74, 60, 156);
     border-style: dashed;
@@ -28,6 +28,15 @@
 }
 .card_on_image_images{
     padding-right: 25px;
+}
+.info{
+    /* height: 100vh; */
+}
+section{
+    justify-content: center;
+    align-items: center;
+}
+.fullpage {
 }
 @media screen and (max-width:900px){
     .cards_on_image{

@@ -1,6 +1,9 @@
 .Welcome{
     z-index: 2;
-    height: 600px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     }
 .Welcome p{
     font-size: 25px;

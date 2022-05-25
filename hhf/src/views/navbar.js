@@ -17,7 +17,6 @@ const Navbar = () => {
             <a><Link to="/Gallery">Gallery</Link></a>
             <a><Link to="/Contact">Contact Us</Link></a>
           </div>
-          <div className="hidden-btn">Dropdown</div>
         </div>
       </div>
     </div>

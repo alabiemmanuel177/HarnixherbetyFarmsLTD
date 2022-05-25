@@ -8,7 +8,6 @@ import Contact from './views/contact'
 import Product from './views/product'
 import Gallery from './views/gallery'
 import Aboutus from './views/aboutus'
-// import 'bootstrap/dist/css/bootstrap.css';
 
 
 
