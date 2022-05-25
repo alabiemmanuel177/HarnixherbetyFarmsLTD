@@ -13,8 +13,7 @@ import Aboutus from './views/aboutus'
 
 const App = () => {
   return (
-      <div>          
-           
+      <div>                     
         <BrowserRouter>
         <Navbar />
         <Routes>       
@@ -26,11 +25,9 @@ const App = () => {
         </Routes>
         <Footer/>        
         </BrowserRouter>
-         
-
       </div>
   )
 }
 const container = document.getElementById('app');
-const root = createRoot(container); // createRoot(container!) if you use TypeScript
+const root = createRoot(container);
 root.render(<App tab="home" />);
