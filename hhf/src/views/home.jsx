@@ -4,8 +4,8 @@ import "../home.css";
 
 const Home = () => {
   return (
-    <div>
-      <div className="main-card">
+    <div>      
+        <div className="main-card">
         <div className="card-txt">
           <h1 className="text-head">Get Your Quality Farm Product Here</h1>
           <h3 className="text-body1">
@@ -26,7 +26,8 @@ const Home = () => {
             <source src="" type="video/mp4" />
           </video>
         </div>
-      </div>
+      </div>        
+      
       <div className="Welcome">
         <div className="homepage_details">
           <img src="/images/farm-product-1.png" alt="" />
@@ -78,7 +79,8 @@ const Home = () => {
         </div>
         <button>SEE ALL</button>
       </div>
-    </div>
+      </div>
+
   );
 };
 

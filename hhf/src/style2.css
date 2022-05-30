@@ -1,6 +1,6 @@
 
 .space{
-    height: 53700px;
+    height: 400px;
 }
 .text{
     position: absolute;
@@ -20,12 +20,13 @@
     position: absolute;
     top: 400px;
     background-color: white;
-    padding: 5px !important;
     z-index: 3;   
     border-radius: 10px;
     border: 1px solid gray; 
     width: 50%;
+    height: 900px;
     margin-left: 25%;
+    justify-content: center;
     opacity: 1;
 }
 .form-group label{
@@ -44,7 +45,10 @@
     background-color: orange;  
 }
 .row {
-    margin: 0% !important;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .background{   
     opacity: 0.5;
@@ -55,50 +59,39 @@
 }
 .faq{
     margin-top: 50px;
-    margin-left: 20%;
-    margin-right: 20%;
     display: flex;    
-    justify-content:space-between;
+    justify-content:space-evenly;
 }
 .sales{
-    /* border: 2px solid rgb(202, 200, 200); */
     border-radius: 10px;
     text-align: center;
-    width: 530px;
     padding: 50px;
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);;
 }
 .sales h2{
     font: 24px Inter, sans-serif;
     margin: 24px 0px 12px;
-    padding: 0px 80px;
 }
 .sales h3{
     font-size: 18px;
-    padding: 0px 40px;
     margin: 0px 0px 24px;
 }
 .sales a{
     font: 18px sans-serif;
-    padding: 0px 80px;
     color: #26b7d4 !important;
 }
 .sales p{
     font: 18px inter, sans-serif;
-    padding: 0px 80px;
 }
 .faqpage{
-    /* border: 2px solid rgb(202, 200, 200); */
     border-radius: 10px;
     text-align: center;
-    width: 530px;
     padding: 50px;
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);;
 }
 .faqpage h2{
     font: 24px Inter, sans-serif;
     margin: 24px 0px 12px;
-    padding: 0px 80px;
 }
 .faqpage h3{
     font-size: 18px;
@@ -121,6 +114,5 @@
 }
 .faqtext h2{
     font: 24px sans-serif;
-    padding: 0px 128px;
     color: #999999;
 }
