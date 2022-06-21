@@ -1,184 +1,41 @@
-.Welcome {
-    z-index: 2;
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+.homepage {
+  height: 100vh;
+}
+.homepage_banner {
+  background-image: url("https://res.cloudinary.com/dtddnqkn6/image/upload/v1655798677/Farm/erol-ahmed-leOh1CzRZVQ-unsplash_xmyo0r.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: fill;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.text {
+  font-family: "Secular One", sans-serif;
+}
+.banner-text {
+  color: white;
+  width: 40%;
+}
+.banner-text button {
+  background-color: #914e18;
+  border: white;
+}
+.banner-text button:hover {
+  background-color: white;
+  color: #914e18;
+}
+.banner-video {
+}
+.homepage_body{
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.homepage_details {
-    display: flex;
+    /* align-items: center; */
     justify-content: center;
-}
-
-.homepage_details img {
-    width: 80%;
-    height: 581px;
-}
-
-.homepage_card {
-    margin-left: 15%;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 1250px;
-    padding: 40px;
-    width: 550px;
-    height: 450px;
-    background-color: white;
-}
-
-.homepage_card h1 {
-    font-size: 40px;
-    margin: 26.8px 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.homepage_card p {
-    font-size: 16px;
-    margin-top: 20px;
-}
-
-.homepage_product {
+    padding: 100px;
     text-align: center;
-    height: 100vh;
-}
-
-.homepage_product h1 {
-    padding: 50px;
-}
-
-.homepage_product button {
-    width: 80px;
-    height: 40px;
-    border-radius: 10px;
-    border: 0;
-    background-color: rgb(74, 60, 156);
-    color: white;
-}
-
-.products_card {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 60%;
-}
-
-.hmproduct img {
-    height: 150px;
-    width: 286.66px;
-}
-
-.hmproduct p {
-    color: blueviolet;
-    font-weight: bolder;
-}
-
-.hmflex {
-    display: flex;
-    justify-content: center;
-}
-
-.cards_on_image {
-    display: flex;
-    justify-content: space-evenly !important;
-    flex-direction: row;
-    position: relative;
-    z-index: 4;
-    top: -400px;
-}
-
-.card_on_image {
-    width: 350px;
-    height: 200px;
-    padding: 30px;
-    border: 2.5px solid rgb(74, 60, 156);
-    border-style: dashed;
-    border-radius: 5px;
-    background-color: white;
-    color: rgb(74, 60, 156);
-    display: flex;
-}
-
-.card_on_image h1 {
-    font-size: 24px;
-}
-
-.card_on_image h4 {
-    font-size: 14px;
-}
-
-.card_on_image h2 {
-    font-size: 16px;
-}
-
-.card_on_image_images {
-    padding-right: 25px;
-}
-
-@media screen and (max-width:900px) {
-    .cards_on_image {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        z-index: 0;
-    }
-    .card_on_image {
-        width: 500px;
-        margin-bottom: 20px;
-        justify-content: center;
-        align-items: center;
-    }
-    .text-body1 {
-        word-wrap: break-word;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .logo a {
-        padding: 5px;
-    }
-}
-
-@media screen and (max-width:1024px) {
-    .main-card {
-        display: flex;
-        flex-direction: column;
-        height: 1000px;
-    }
-    .card-vid {
-        margin-top: 50px;
-        align-items: center;
-    }
-    .card-txt {
-        margin-top: 150px;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-    .cards_on_image {
-        flex-wrap: wrap;
-        z-index: 1;
-    }
-    .card_on_image {
-        width: 400px;
-        margin-bottom: 20px;
-        justify-content: space-evenly;
-    }
-}
-
-@media screen and (max-width:425px) {
-    video {
-        width: 400px;
-    }
-    .hidden-btn {
-        display: contents;
-    }
-}
-
-@media screen and (max-width:1440px) {
-    .hidden-btn {
-        display: none;
-    }
 }

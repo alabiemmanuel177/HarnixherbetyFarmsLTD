@@ -1,118 +1,119 @@
-
-.space{
-    height: 400px;
+.space {
+  height: 400px;
 }
-.text{
-    position: absolute;
-    z-index: 2;
-    top: 200px;
-    text-align: center;
-    width: 100%;    
-    color: white;
-    }
-.text h1{
-    font-size: 60px;
-   }
-.text h3{
-    font-size: 30px;
+.text {
+  position: absolute;
+  z-index: 2;
+  top: 200px;
+  text-align: center;
+  width: 100%;
+  color: white;
 }
-.container1{
-    position: absolute;
-    top: 400px;
-    background-color: white;
-    z-index: 3;   
-    border-radius: 10px;
-    border: 1px solid gray; 
-    width: 50%;
-    height: 900px;
-    margin-left: 25%;
-    justify-content: center;
-    opacity: 1;
+.text h1 {
+  font-size: 60px;
 }
-.form-group label{
-    font-size: 20px;
+.text h3 {
+  font-size: 30px;
 }
-.form-group input{
-    height: 60px; 
+.container1 {
+  position: absolute;
+  top: 400px;
+  background-color: white;
+  z-index: 3;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 50%;
+  height: 900px;
+  margin-left: 25%;
+  justify-content: center;
+  opacity: 1;
 }
-.form-group textarea{
-    height: 300px !important;
-    margin-bottom: 30px;
+.form-group label {
+  font-size: 20px;
 }
-.col-md-12 input{
-    margin-top: 10px !important;
-    font-size: 20px !important;  
-    background-color: orange;  
+.form-group input {
+  height: 60px;
+}
+.form-group textarea {
+  height: 300px !important;
+  margin-bottom: 30px;
+}
+.col-md-12 input {
+  margin-top: 10px !important;
+  font-size: 20px !important;
+  background-color: orange;
 }
 .row {
-    margin: 20px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
-.background{   
-    opacity: 0.5;
+.background {
+  opacity: 0.5;
 }
-.contact{
-    background-color: black;
-    height: 984px;
+.contact {
+  background-color: black;
+  height: 984px;
 }
-.faq{
-    margin-top: 50px;
-    display: flex;    
-    justify-content:space-evenly;
+.faq {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
 }
-.sales{
-    border-radius: 10px;
-    text-align: center;
-    padding: 50px;
-    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);;
+.sales {
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%),
+    0 10px 10px -5px rgb(0 0 0 / 4%);
 }
-.sales h2{
-    font: 24px Inter, sans-serif;
-    margin: 24px 0px 12px;
+.sales h2 {
+  font: 24px Inter, sans-serif;
+  margin: 24px 0px 12px;
 }
-.sales h3{
-    font-size: 18px;
-    margin: 0px 0px 24px;
+.sales h3 {
+  font-size: 18px;
+  margin: 0px 0px 24px;
 }
-.sales a{
-    font: 18px sans-serif;
-    color: #26b7d4 !important;
+.sales a {
+  font: 18px sans-serif;
+  color: #26b7d4 !important;
 }
-.sales p{
-    font: 18px inter, sans-serif;
+.sales p {
+  font: 18px inter, sans-serif;
 }
-.faqpage{
-    border-radius: 10px;
-    text-align: center;
-    padding: 50px;
-    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);;
+.faqpage {
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%),
+    0 10px 10px -5px rgb(0 0 0 / 4%);
 }
-.faqpage h2{
-    font: 24px Inter, sans-serif;
-    margin: 24px 0px 12px;
+.faqpage h2 {
+  font: 24px Inter, sans-serif;
+  margin: 24px 0px 12px;
 }
-.faqpage h3{
-    font-size: 18px;
-    padding: 0px 40px;
-    margin: 0px 0px 24px;
+.faqpage h3 {
+  font-size: 18px;
+  padding: 0px 40px;
+  margin: 0px 0px 24px;
 }
-.faqpage button{
-    font: 16px Inter, sans-serif;
-    background-color: orange;
-    padding: 12px 40px;
-    color: white;
-    border-radius: 10px;
-    border: 0;
+.faqpage button {
+  font: 16px Inter, sans-serif;
+  background-color: orange;
+  padding: 12px 40px;
+  color: white;
+  border-radius: 10px;
+  border: 0;
 }
-.faqtext{
-    text-align: center;
+.faqtext {
+  text-align: center;
 }
-.faqtext h1{
-    font: 56px sans-serif;
+.faqtext h1 {
+  font: 56px sans-serif;
 }
-.faqtext h2{
-    font: 24px sans-serif;
-    color: #999999;
+.faqtext h2 {
+  font: 24px sans-serif;
+  color: #999999;
 }

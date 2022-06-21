@@ -1,11 +1,10 @@
 import React from "react";
-import "../style1.css";
-import "../style2.css";
+// import "../style1.css";
+// import "../style2.css";
 
 const Footer = () => {
   return (
     <div className="footer">
-      
       <footer className="text-center text-lg-start bg-light text-muted">
         <section className="foot">
           <div className="container text-center text-md-start mt-5">

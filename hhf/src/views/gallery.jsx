@@ -1,12 +1,8 @@
-import React from 'react'
+import React from "react";
 // import Slider from 'react-touch-drag-slider'
 
 const Gallery = () => {
-  return (
-    <div>
+  return <div></div>;
+};
 
-    </div>
-  )
-}
-
-export default Gallery
+export default Gallery;
