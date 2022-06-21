@@ -39,3 +39,143 @@
     padding: 100px;
     text-align: center;
 }
+
+.homepage_product h1 {
+    padding: 50px;
+}
+
+.homepage_product button {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(74, 60, 156);
+    color: white;
+}
+
+.products_card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.hmproduct img {
+    height: 150px;
+    width: 286.66px;
+}
+
+.hmproduct p {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.hmflex {
+    display: flex;
+    justify-content: center;
+}
+
+.cards_on_image {
+    display: flex;
+    justify-content: space-evenly !important;
+    flex-direction: row;
+    position: relative;
+    z-index: 4;
+    top: -400px;
+}
+
+.card_on_image {
+    width: 350px;
+    height: 200px;
+    padding: 30px;
+    border: 2.5px solid rgb(74, 60, 156);
+    border-style: dashed;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(74, 60, 156);
+    display: flex;
+}
+
+.card_on_image h1 {
+    font-size: 24px;
+}
+
+.card_on_image h4 {
+    font-size: 14px;
+}
+
+.card_on_image h2 {
+    font-size: 16px;
+}
+
+.card_on_image_images {
+    padding-right: 25px;
+}
+
+@media screen and (max-width:900px) {
+    .cards_on_image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 0;
+    }
+    .card_on_image {
+        width: 500px;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-body1 {
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .logo a {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .main-card {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+    .card-vid {
+        margin-top: 50px;
+        align-items: center;
+    }
+    .card-txt {
+        margin-top: 150px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .cards_on_image {
+        flex-wrap: wrap;
+        z-index: 1;
+    }
+    .card_on_image {
+        width: 400px;
+        margin-bottom: 20px;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width:425px) {
+    video {
+        width: 400px;
+    }
+    .hidden-btn {
+        display: contents;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .hidden-btn {
+        display: none;
+    }
+}
+
