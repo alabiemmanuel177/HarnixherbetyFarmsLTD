@@ -1,0 +1,53 @@
+.aboutus_head {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+}
+.aboutus_head h1 {
+  font-family: "Engagement", cursive !important;
+  color: #fda50f;
+  font-size: 98px;
+}
+.aboutus_head p {
+  font-family: "Poppins";
+  font-size: 32px;
+}
+.aboutus_body {
+  text-align: center;
+}
+.aboutus_body h1 {
+  font-family: "Podkova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #253138;
+  margin-bottom: 50px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.text-style {
+  font-family: "Engagement", cursive !important;
+  color: #fda50f;
+}
+.aboutus_content {
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 150px;
+}
+.content_image {
+  width: 638px;
+  height: 298px;
+  background-color: #253138;
+}
+.content_text {
+  margin-top: 50px;
+  font-size: 36px;
+  width: 590px;
+  align-items: center;
+}
