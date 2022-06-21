@@ -9,13 +9,13 @@
 
 .aboutQ{
     margin-left: 10%;
-    width: 40%;
+    width: 30%;
     margin-top: 20px;
 }
 
 .aboutA{
     margin-right: 10%;
-    width: 60%;
+    width: 65%;
 }
 
 .founder-holder{
@@ -30,7 +30,7 @@
     position: relative;
     bottom: 100px;
     /* border: 2px solid black; */
-    width: 29%;
+    width: 30%;
     /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px; */
     box-shadow: rgba(35, 41, 47, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     margin-right: 40px;

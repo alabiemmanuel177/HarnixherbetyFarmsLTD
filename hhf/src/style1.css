@@ -117,5 +117,53 @@ background-color: orange !important;
  
 }
 
+@media screen and (max-width:1366px) {
+     .text-head{
+       font-size: 30px !important;
+     }
+     .text-body1{
+       font-size: 20px;
+     }
+
+     .main-card{
+       padding: 100px;
+     }
+
+   .logo{
+     padding: 7px;
+   }
+
+   .contact{
+     height: 700px !important;
+   }
+
+   .row{
+     padding: 0px !important;
+   }
+  
+   .sales{
+       padding: 20px !important;
+     }
+
+     .faqpage{
+       padding: 20px !important;
+     }
+
+     .faqtext{
+       margin-top: 50px;
+     }
+
+     .txt-area{
+       height: 20px !important;
+     }
+
+     .h1-resize{
+       font-size: 30px !important;
+     }
+
+     .h3-resize{
+       font-size: 25px !important;
+     }
+  }
 
 

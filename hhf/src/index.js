@@ -6,8 +6,11 @@ import Footer from './views/footer'
 import Home from './views/home'
 import Contact from './views/contact'
 import Product from './views/product'
-import Gallery from './views/gallery'
+// import Gallery from './views/gallery'
+import Contactus from './views/Contactus'
 import Aboutus from './views/aboutus'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 
 
@@ -21,7 +24,7 @@ const App = () => {
         <Route index element={<Aboutus />} path="/aboutus" />
         <Route element={<Contact/>} path="/contact" />
         <Route element={<Product/>} path="/product" />
-        <Route element={<Gallery/>} path="/gallery" />
+        <Route element={<Contactus/>} path="/contacts" />
         </Routes>
         <Footer/>        
         </BrowserRouter>

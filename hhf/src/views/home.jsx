@@ -22,7 +22,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="card-vid">
-          <video width="800px" height="400" controls>
+          <video width="100%" height="400" controls>
             <source src="" type="video/mp4" />
           </video>
         </div>
@@ -30,7 +30,7 @@ const Home = () => {
       
       <div className="Welcome">
         <div className="homepage_details">
-          <img src="/images/farm-product-1.png" alt="" />
+          <img src="/images/farm-product-1.png" alt="" className="image-size"/>
         </div>
         <div className="homepage_card">
           <h1>Providing Basic Needs</h1>
