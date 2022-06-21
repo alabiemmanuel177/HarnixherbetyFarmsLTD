@@ -116,17 +116,6 @@
     padding-right: 25px;
 }
 
-.info {
-    /* height: 100vh; */
-}
-
-section {
-    /* justify-content: center; */
-    /* align-items: center; */
-}
-
-.fullpage {}
-
 @media screen and (max-width:900px) {
     .cards_on_image {
         display: flex;
@@ -193,6 +182,7 @@ section {
         display: none;
     }
 }
+<<<<<<< HEAD
 
 html,
 body {
@@ -309,3 +299,5 @@ body {
     
  
 }
+=======
+>>>>>>> 791049dcfc21758e473c4720300a39041cca3faa
