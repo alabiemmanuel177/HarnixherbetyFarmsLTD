@@ -7,6 +7,7 @@
   font-family: "Engagement", cursive !important;
   color: #fda50f;
   font-size: 98px;
+  text-align: center;
 }
 .boy {
   color: black !important;
@@ -18,7 +19,8 @@
 }
 
 .slider-img {
-  width: 300px;
+  width: 300px !important;
+  height: 200px;
   border-radius: 5px;
 }
 
@@ -35,6 +37,16 @@
 
 .slider2 {
   display: none;
+}
+
+.slider_head{
+  margin-top: 100px;
+}
+
+.slider_head_center{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 @media screen and (max-width: 425px) {

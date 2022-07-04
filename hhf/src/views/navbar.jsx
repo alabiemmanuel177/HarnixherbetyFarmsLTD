@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export const Navbar = () => {
   return (
@@ -25,6 +26,29 @@ export const Navbar = () => {
         <Link to="/contact" className="Nlink link-pos2">
           <a href="#">Contact </a>
         </Link>
+        <div className="dropdown">
+          <Link to="#" className=" dropbtn hamburger">
+            <a>
+              <GiHamburgerMenu />
+            </a>
+          </Link>
+          <div className="dropdown-content drop">
+            <Link to="/" className="Nlink">
+              <a>Home</a>
+            </Link>
+            <Link to="/aboutus" className="Nlink">
+              <a>About Us</a>
+            </Link>
+            <Link to="/product" className="Nlink">
+              <a>Products</a>
+            </Link>
+            <Link to="/contact" className="Nlink">
+              <a>Contact</a>
+            </Link>
+          
+
+          </div>
+        </div>
       </div>
     </div>
   );

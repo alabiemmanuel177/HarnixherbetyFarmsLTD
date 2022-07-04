@@ -1,7 +1,6 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "../home.css";
-
 const Home = () => {
   return (
     <div className="homepage">
@@ -25,7 +24,7 @@ const Home = () => {
             Check Products
           </button>
         </div>
-        <div className="banner-video">
+        <div className="banner-video video-responsive">
           <video height="400" controls>
             <source src="" type="video/mp4" />
           </video>
