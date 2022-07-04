@@ -7,13 +7,13 @@ const Aboutus = () => {
       <div className="aboutus_head">
         <h1>About Us</h1>
         <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
+          "It all began with a dream to tap into Nigeria rich farming industry,
+          starting something new. Together, we established HARNIXHERBTY FARMS
+          LIMITED, a company dedicated to providing quality farm products and
+          fresh healthy chickens and eggs on the go. Our products and services
+          were designed to satisfy all of our customers, anytime, anywhere. We
+          are committed to customer satisfaction as our top priority. If you
+          want to learn more about how we do business, give us a call today."
         </p>
       </div>
       <div className="aboutus_body">
@@ -24,21 +24,21 @@ const Aboutus = () => {
         <div className="aboutus_content">
           <div className="content_image"></div>
           <div className="content_text">
-            "<span className="text-style">Lorem</span> ipsum dolor sit amet,
+            "<span className="text-style">Good Products</span> ipsum dolor sit amet,
             consectetur adipiscing elit, sed do eiusmod tempor"
           </div>
         </div>
         <div className="aboutus_content">
           <div className="content_text">
-            "<span className="text-style">LIpsumorem</span> ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor"
+            "<span className="text-style">Exceptional Service</span> ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor"
           </div>
           <div className="content_image"></div>
         </div>
         <div className="aboutus_content">
           <div className="content_image"></div>
           <div className="content_text">
-            "<span className="text-style">Lorem</span> ipsum dolor sit amet,
+            "<span className="text-style">Positive Team Spirit</span> ipsum dolor sit amet,
             consectetur adipiscing elit, sed do eiusmod tempor"
           </div>
         </div>

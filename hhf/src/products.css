@@ -3,7 +3,11 @@
   margin-left: 10%;
   margin-right: 10%;
 }
-
+.product_head {
+  font-family: "Engagement", cursive !important;
+  color: #fda50f;
+  font-size: 98px;
+}
 .boy {
   color: black !important;
   margin-top: 100px;
@@ -58,5 +62,3 @@
 .large-img {
   border-radius: 5px;
 }
-
-
