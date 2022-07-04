@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../home.css";
 
 const Home = () => {
@@ -9,17 +9,18 @@ const Home = () => {
         <div className="banner-text text">
           <h1>Get Your Quality Farm Product Here</h1>
           <h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br /> Iusto dolore eius ex, dignissimos cupiditate in eos quod
-            magni quas natus praesentium hic, obcaecati veritatis quos fugit
-            autem doloremque, aut aliquid.
+            At HARNIXHERBTY FARMS LIMITED,
+            <br /> we’re passionate about good products, exceptional service and
+            positive team spirit. We understand how valuable your time is, which
+            is why we will leave no stone unturned in order to find the right
+            solution for you.
           </h3>
           <button
             id="homecard-btn"
             type="button"
             className="btn btn-primary btn-lg"
-            color="#914e18 !important"
-            backgroundColor="white !important"
+            style={{color:"#914e18 !important",
+            backgroundColor:"white !important"}}            
           >
             Check Products
           </button>
@@ -33,7 +34,7 @@ const Home = () => {
       <div className="homepage_body">
         <h1>
           "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          cupiditate explicabo, tempore velit cum quis corporis tempora sunt"          
+          cupiditate explicabo, tempore velit cum quis corporis tempora sunt"
         </h1>
       </div>
     </div>

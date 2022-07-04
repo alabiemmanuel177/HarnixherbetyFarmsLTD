@@ -14,16 +14,16 @@ export const Navbar = () => {
       </div>
       <div className="navbar-btn navbar-btn1">
         <Link to="/" className="Nlink link-pos2">
-          <a>Home</a>
+          <a href="#">Home</a>
         </Link>
         <Link to="/aboutus" className="Nlink link-pos2">
-          <a>About Us</a>
+          <a href="#">About Us</a>
         </Link>
         <Link to="/" className="Nlink link-pos2">
-          <a>Products</a>
+          <a href="#">Products</a>
         </Link>
         <Link to="/" className="Nlink link-pos2">
-          <a>Contact </a>
+          <a href="#">Contact </a>
         </Link>
       </div>
     </div>

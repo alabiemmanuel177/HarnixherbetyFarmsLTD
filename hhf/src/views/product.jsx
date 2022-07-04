@@ -1,6 +1,6 @@
 import React from 'react'
 import "../products.css"
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import MultipleItems from './Slider';
 import Slider2 from './Slider2';
 

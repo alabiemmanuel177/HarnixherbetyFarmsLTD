@@ -2,11 +2,6 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "../products.css"
 
-
-{/* <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" /> */}
- 
-
-
 export default class PauseOnHover extends Component {
     render() {
       var settings = {
