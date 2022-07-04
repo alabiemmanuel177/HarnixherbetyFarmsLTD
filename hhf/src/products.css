@@ -33,6 +33,16 @@
   display: none;
 }
 
+.slider_head{
+  margin-top: 100px;
+}
+
+.slider_head_center{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
 @media screen and (max-width: 425px) {
   .slider2 {
     display: contents;
